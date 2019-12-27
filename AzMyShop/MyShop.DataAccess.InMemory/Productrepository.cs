@@ -7,7 +7,7 @@ using System.Runtime.Caching;
 using AzMyShop.Core.Models;
 
 
-namespace MyShop.DataAccess.InMemory
+namespace AzMyShop.DataAccess.InMemory
 {
     public class Productrepository
     {
@@ -22,7 +22,7 @@ namespace MyShop.DataAccess.InMemory
                 products = new List<Product>();
             }
         }
-        public void Commit()
+        public void Commit()  //this method is used to not commit the products immediately they are first cached and then added to the product list
         {
             cache["products"] = products;
         }
@@ -69,7 +69,7 @@ namespace MyShop.DataAccess.InMemory
 
         public void Delete(string Id)
         {
-            Product producttodelete = products.Find(p => p.id == Id);
+            Product producttodelete = products.Find(p => p.Id == Id);
 
             if(producttodelete != null)
             {

@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzMyShop.Core", "AzMyShop.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzMyShop.Services", "AzMyShop.Services\AzMyShop.Services.csproj", "{38B945E3-E09D-45B5-917C-0329A987ACD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.SQL", "MyShop.DataAccess.SQL\MyShop.DataAccess.SQL.csproj", "{45E68232-2115-405F-AEF0-0F9C51D89858}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzMyShop.DataAccess.SQL", "MyShop.DataAccess.SQL\AzMyShop.DataAccess.SQL.csproj", "{45E68232-2115-405F-AEF0-0F9C51D89858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.InMemory", "MyShop.DataAccess.InMemory\MyShop.DataAccess.InMemory.csproj", "{372B41C3-17E5-46E9-87EE-BDE7AB8AB2CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzMyShop.DataAccess.InMemory", "MyShop.DataAccess.InMemory\AzMyShop.DataAccess.InMemory.csproj", "{372B41C3-17E5-46E9-87EE-BDE7AB8AB2CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzMyShop.WebUI", "AzMyShop.WebUI\AzMyShop.WebUI.csproj", "{19DF0DA5-12FF-4D36-A318-FB3327539B31}"
 EndProject
