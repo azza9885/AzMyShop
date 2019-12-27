@@ -17,7 +17,7 @@ namespace AzMyShop.DataAccess.InMemory
         public Productrepository()
         {
             products = cache["products"] as List<Product>;
-            if(products == null)
+            if (products == null)
             {
                 products = new List<Product>();
             }
@@ -51,7 +51,7 @@ namespace AzMyShop.DataAccess.InMemory
         {
             Product product = products.Find(p => p.Id == Id);
 
-            if (product != null) 
+            if (product != null)
             {
                 return product;
             }
@@ -71,7 +71,7 @@ namespace AzMyShop.DataAccess.InMemory
         {
             Product producttodelete = products.Find(p => p.Id == Id);
 
-            if(producttodelete != null)
+            if (producttodelete != null)
             {
                 products.Remove(producttodelete);
             }
